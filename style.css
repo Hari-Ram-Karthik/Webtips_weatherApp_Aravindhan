@@ -1,0 +1,53 @@
+body{
+    background-color: #128c7e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h2{
+	color: #dcf8c6;
+}
+
+.messages_container {
+	width: 600px;
+	height: 550px;
+	position: relative;
+	border: 2px solid #075e54;
+	border-radius: 5px;
+	display: flex;
+    flex-direction: column;	
+}
+
+.messages {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+    background-image: url('.\\assets\\ChatBg.jpg');
+    overflow: auto;
+}
+
+.input_container {
+	display: flex;
+	width: 100%;
+}
+
+.input {
+	flex: 1;
+	height: 40px;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	padding: 0 10px;
+	border-top: 2px solid #075e54;
+}
+
+.btn {
+	width: 120px;
+	background-color: #075e54;
+	color: white;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
